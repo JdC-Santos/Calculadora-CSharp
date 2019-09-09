@@ -22,6 +22,87 @@ namespace calc2
 
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            Teclado(keyData.ToString());
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+        protected void Teclado(string key)
+        {
+            //MessageBox.Show(key.ToString());
+            switch (key)
+            {
+                case "NumPad1":
+                    //MessageBox.Show("ok");
+                    botao.PerformClick();
+                    break;
+                case "NumPad2":
+                    //MessageBox.Show("ok");
+                    button1.PerformClick();
+                    break;
+                case "NumPad3":
+                    //MessageBox.Show("ok");
+                    button2.PerformClick();
+                    break;
+                case "NumPad4":
+                    //MessageBox.Show("ok");
+                    button6.PerformClick();
+                    break;
+                case "NumPad5":
+                    //MessageBox.Show("ok");
+                    button7.PerformClick();
+                    break;
+                case "NumPad6":
+                    //MessageBox.Show("ok");
+                    button8.PerformClick();
+                    break;
+                case "NumPad7":
+                    //MessageBox.Show("ok");
+                    button9.PerformClick();
+                    break;
+                case "NumPad8":
+                    //MessageBox.Show("ok");
+                    button10.PerformClick();
+                    break;
+                case "NumPad9":
+                    //MessageBox.Show("ok");
+                    button11.PerformClick();
+                    break;
+                case "NumPad0":
+                    //MessageBox.Show("ok");
+                    button3.PerformClick();
+                    break;
+                case "Subtract":
+                    //MessageBox.Show("ok");
+                    button15.PerformClick();
+                    break;
+                case "Add":
+                    //MessageBox.Show("ok");
+                    button14.PerformClick();
+                    break;
+                case "Multiply":
+                    //MessageBox.Show("ok");
+                    button16.PerformClick();
+                    break;
+                case "Divide":
+                    //MessageBox.Show("ok");
+                    button17.PerformClick();
+                    break;
+                case "Return":
+                    //MessageBox.Show("ok");
+                    button5.PerformClick();
+                    break;
+                case "Back":
+                    //MessageBox.Show("ok");
+                    button13.PerformClick();
+                    break;
+                case "RButton, Oemtilde":
+                    //MessageBox.Show("ok");
+                    button4.PerformClick();
+                    break;
+            }
+        }
+
         private void Botoes_Click(object sender, EventArgs e)
         {
             string d = ((Button)sender).Text;
@@ -126,24 +207,29 @@ namespace calc2
                         txt.Text = n1;
                     }
                 }
-                
             }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
 
-            MessageBox.Show("e.KeyCode.ToString()");
-            if (e.KeyCode == Keys.A)
-            {
-                
-            }
         }
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
             MessageBox.Show("dsdsdsa");
             txt.Text = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhhhhhhhhhhhhhhhhhhh";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // MessageBox.Show("dsdsdsa");
+           
+        }
+
+        private void Form1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+             MessageBox.Show("dsdsdsa");
         }
     }
 }

@@ -8,3 +8,13 @@ C:\Users\aluno1\Source\Repos\calc2\calc2\obj\Debug\calc2.csproj.GenerateResource
 C:\Users\aluno1\Source\Repos\calc2\calc2\obj\Debug\calc2.csproj.CoreCompileInputs.cache
 C:\Users\aluno1\Source\Repos\calc2\calc2\obj\Debug\calc2.exe
 C:\Users\aluno1\Source\Repos\calc2\calc2\obj\Debug\calc2.pdb
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\bin\Debug\calc2.exe.config
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\bin\Debug\calc2.exe
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\bin\Debug\calc2.pdb
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\obj\Debug\calc2.csprojAssemblyReference.cache
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\obj\Debug\calc2.Form1.resources
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\obj\Debug\calc2.Properties.Resources.resources
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\obj\Debug\calc2.csproj.GenerateResource.cache
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\obj\Debug\calc2.csproj.CoreCompileInputs.cache
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\obj\Debug\calc2.exe
+C:\Users\aluno3\Desktop\Calculadora-CSharp\calc2\obj\Debug\calc2.pdb
